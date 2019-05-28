@@ -9,12 +9,12 @@
             </center>
         </div>
         <div class="form">
-            <p><h1 id="name">CAITLIN SISTOSO</h1></p>
-            <p id="sid">201512345</p>
-            <p id="mobileNum">(+63) 914 456 5462</p>
-            <p id="birthdate">10/12/1999</p>
-            <a id="email">kitlinsistoso@gmail.com</a>
-            <button id="myModal">CHANGE DETAILS</button>
+            <p><h1 id="name" runat="server">CAITLIN SISTOSO</h1></p>
+            <p id="sid" runat="server">201512345</p>
+            <p id="mobileNum" runat="server">(+63) 914 456 5462</p>
+            <p id="birthdate" runat="server">10/12/1999</p>
+            <a id="email" runat="server">kitlinsistoso@gmail.com</a>
+            <button runat="server">CHANGE DETAILS</button>
         </div>
     </div>
 

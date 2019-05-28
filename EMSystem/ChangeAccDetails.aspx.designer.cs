@@ -10,7 +10,7 @@
 namespace EMSystem {
     
     
-    public partial class AccountDetails {
+    public partial class ChangeAccDetails {
         
         /// <summary>
         /// name control.
@@ -19,25 +19,16 @@ namespace EMSystem {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl name;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText name;
         
         /// <summary>
-        /// sid control.
+        /// studnum control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl sid;
-        
-        /// <summary>
-        /// mobileNum control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl mobileNum;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText studnum;
         
         /// <summary>
         /// birthdate control.
@@ -46,7 +37,16 @@ namespace EMSystem {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl birthdate;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText birthdate;
+        
+        /// <summary>
+        /// mobileNum control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText mobileNum;
         
         /// <summary>
         /// email control.
@@ -55,6 +55,6 @@ namespace EMSystem {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor email;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText email;
     }
 }

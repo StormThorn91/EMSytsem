@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UserHome.Master" AutoEventWireup="true" CodeBehind="UserHome.aspx.cs" Inherits="EMSystem.UserHome" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap/4.0.0/css/bootstrap.min.css">
     <link href="userCSS.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
     <script src="userJS.js"></script>
